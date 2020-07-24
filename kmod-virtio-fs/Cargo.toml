@@ -1,0 +1,14 @@
+[package]
+name = "kmod-virtio-fs"
+version = "0.1.0"
+authors = ["D Scott Phillips <scott@scott.ph>"]
+edition = "2018"
+
+[dependencies]
+freebsd-kpi = { path = "../freebsd-kpi" }
+
+[lib]
+crate-type = ["staticlib"]
+
+[build-dependencies]
+cc = "1.0"

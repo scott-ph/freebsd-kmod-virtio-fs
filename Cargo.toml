@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "freebsd-kpi",
+    "kmod-virtio-fs",
+]

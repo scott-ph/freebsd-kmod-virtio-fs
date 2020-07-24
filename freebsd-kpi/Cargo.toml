@@ -1,0 +1,9 @@
+[package]
+name = "freebsd-kpi"
+version = "0.1.0"
+authors = ["D Scott Phillips <scott@scott.ph>"]
+edition = "2018"
+
+[build-dependencies]
+bindgen = "0.51"
+cc = "1.0"

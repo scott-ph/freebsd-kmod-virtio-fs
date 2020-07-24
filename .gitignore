@@ -1,0 +1,11 @@
+/target
+**/*.rs.bk
+Cargo.lock
+**/.depend*
+/bus_if.h
+/device_if.h
+/export_syms
+/machine
+/virtio_fs.ko
+/virtio_fs.o
+/x86
